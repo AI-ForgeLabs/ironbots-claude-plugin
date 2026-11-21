@@ -1,0 +1,19 @@
+{
+  "name": "ironbots",
+  "version": "1.0.0",
+  "description": "Connect Claude Code to your IronBots account: customers, schedule, CRM, customer-service inbox, services, inventory, team chat and AI agents. Sign in with OAuth; no API key needed.",
+  "author": {
+    "name": "IronBots",
+    "email": "suporte@ironbots.com.br",
+    "url": "https://ironbots.com.br"
+  },
+  "homepage": "https://ironbots.com.br/conector-claude",
+  "repository": "https://github.com/AI-ForgeLabs/ironbots-claude-plugin",
+  "license": "Apache-2.0",
+  "keywords": ["crm", "customer-service", "whatsapp", "scheduling", "ai-agents", "mcp"],
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://ironbots.com.br/conector-claude",
+  "supportUrl": "mailto:suporte@ironbots.com.br",
+  "privacyPolicyUrl": "https://ironbots.com.br/privacidade",
+  "termsOfServiceUrl": "https://ironbots.com.br/termos"
+}

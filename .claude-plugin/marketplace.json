@@ -1,0 +1,15 @@
+{
+  "name": "ironbots",
+  "description": "Official IronBots plugins for Claude Code.",
+  "owner": {
+    "name": "IronBots",
+    "email": "suporte@ironbots.com.br"
+  },
+  "plugins": [
+    {
+      "name": "ironbots",
+      "source": "./plugins/ironbots",
+      "description": "Connect Claude Code to your IronBots account: customers, schedule, CRM, customer-service inbox, services, inventory, team chat and AI agents."
+    }
+  ]
+}

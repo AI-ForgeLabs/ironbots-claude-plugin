@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ironbots": {
+      "type": "http",
+      "url": "https://ironbots.com.br/api/mcp"
+    }
+  }
+}
