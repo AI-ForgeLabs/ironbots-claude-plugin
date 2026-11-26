@@ -7,7 +7,10 @@ that answer customers, services, inventory, marketing and an internal team chat.
 
 With this plugin, Claude reads and organizes your account with exactly the
 permissions of your role. **No tool sends messages to your customers.** Every change
-asks for confirmation, and almost all of them can be undone for 7 days.
+asks for confirmation, and almost all of them can be undone for 7 days. Actions that
+can't be undone (deleting for good, turning on an agent, publishing) wait for **your
+approval inside IronBots**: the AI asks, you get a notification, and only your click
+runs it. The account administrator can also set these to "never" or "allow".
 
 ## Install
 
@@ -22,8 +25,9 @@ IronBots sign-in screen: sign in and click **Allow**. No API key is needed.
 ## What's included
 
 - **MCP server** `https://ironbots.com.br/api/mcp`: tools for contacts, schedule, CRM,
-  customer service, services, inventory, marketing, team chat and AI agents. The
-  tools you see depend on your role and plan.
+  customer service, services (including setting up spaces, boards with columns,
+  automations between boards and projects), inventory, marketing, team chat and AI
+  agents. The tools you see depend on your role and plan.
 - **`/ironbots:resumo-do-dia`**: daily briefing (schedule, unassigned conversations,
   overdue services, stalled deals). Read only.
 - **`/ironbots:negocios-parados [days]`**: review of stalled deals with suggested next
@@ -46,8 +50,11 @@ IronBots sign-in screen: sign in and click **Allow**. No API key is needed.
 ## Em português
 
 Conecte o Claude Code à sua conta do IronBots: clientes, agenda, CRM, atendimento,
-serviços, estoque, marketing, chat da equipe e agentes de IA, sempre com as
-permissões do seu cargo. Nenhuma ferramenta manda mensagem para os seus clientes.
+serviços (inclusive criar espaços, quadros, automações entre quadros e projetos),
+estoque, marketing, chat da equipe e agentes de IA, sempre com as permissões do
+seu cargo. Nenhuma ferramenta manda mensagem para os seus clientes. O que não tem
+volta (apagar de vez, ligar agente, publicar) espera a sua aprovação no IronBots: a IA
+pede, você recebe o aviso e só o seu clique executa.
 
 Instalação: os dois comandos acima e, depois, `/mcp` → **ironbots** → **Authenticate**.
 Entre na sua conta do IronBots e clique em **Permitir**.
